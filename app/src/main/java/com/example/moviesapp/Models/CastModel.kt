@@ -5,7 +5,7 @@ import android.os.Parcelable
 
 data class CastModel(
     var PicUrl: String = "",
-    var actor: String = ""
+    var Actor: String = ""
 ): Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readString() ?: "",
@@ -15,7 +15,7 @@ data class CastModel(
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(PicUrl)
-        parcel.writeString(actor)
+        parcel.writeString(Actor)
     }
 
     override fun describeContents(): Int {
