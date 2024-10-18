@@ -5,6 +5,7 @@
 #### 🟣 This is application where users can access and watch popular and upcoming films.
 #### 🟣 I used Constraint Layout, Recycler View and View Pager in the design.
 #### 🟣 On the detail page, users can view the details of the film and the cast.
+#### 🟣 For the first time I used the blur view plugin in Details activity. I learnt how to set it in the activity section.
 #### 🟣 For copyright reasons, the ‘Watch Now’ button redirects the user to the trailer of the film.
 
 </br>
@@ -16,6 +17,7 @@
 <div>:heavy_check_mark: RecyclerView</div>
 <div>:heavy_check_mark: ViewPager</div>
 <div>:heavy_check_mark: ChipNavigationBar</div>
+<div>:heavy_check_mark: Blur View</div>
 <div style="display: flex;">
   
 </br>
